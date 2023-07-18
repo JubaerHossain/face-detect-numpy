@@ -14,6 +14,12 @@ pip install flask opencv-python mtcnn mysql-connector-python pika tensorflow
     rabbitmq-server
 
 ```
+##### Access the RabbitMQ Management Console (optional):
+
+Open a web browser and navigate to http://localhost:15672/ to access the RabbitMQ Management Console.
+Log in using the default credentials:
+Username: guest
+Password: guest
 
 ## Run
 
