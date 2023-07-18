@@ -16,6 +16,16 @@ pip install flask opencv-python mtcnn mysql-connector-python pika tensorflow
 
 ```
 
+### Enable RabbitMQ Management Plugin (optional):
+
+To use the RabbitMQ Management Console, which provides a web-based interface for managing and monitoring RabbitMQ, you need to enable the Management Plugin.
+In the RabbitMQ Command Prompt, run the following command:
+bash
+
+```bash
+rabbitmq-plugins enable rabbitmq_management
+```
+
 ##### Access the RabbitMQ Management Console (optional):
 
 <p>Open a web browser and navigate to http://localhost:15672/ to access the RabbitMQ Management Console.
